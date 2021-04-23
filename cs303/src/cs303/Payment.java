@@ -12,6 +12,9 @@ package cs303;
 public class Payment {
 
     float amount;
+    Payment(){
+    
+    }
     IauthorizeBehvior iauthorizeBehvior;
     IprintBehavior printBehavior;
 }
